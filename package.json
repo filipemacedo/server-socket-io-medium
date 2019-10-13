@@ -1,0 +1,18 @@
+{
+  "name": "deploy-node-socket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "socket.io-client": "^2.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "env NODE_INSTANCE=0 nodemon ./app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
